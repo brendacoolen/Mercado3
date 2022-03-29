@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Magical";
+  src: url("fuente/Magical.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+.TituloPrincipal {
+  font-family: Magical;
+  text-align: center;
+  font-size: 60px;
+}
+@font-face {
+  font-family: "Sinami";
+  src: url("fuente/Sinami.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+h2 {
+  font-family: Sinami;
+  font-size: 50px;
+  color: blueviolet;
+  text-align: center;
+}
+
+p {
+  font-family: cursive;
+  font-size: 20px;
+  color: black;
+}
+
+body {
+  background-image: url(src/imagenes/fondo5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+img {
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+
+footer {
+  color: midnightblue;
+  font-size: 15px;
+}
+
+div {
+  background-image: radial-gradient(
+    circle at 26.27% 41.36%,
+    #daffff 0,
+    #c8fffe 8.33%,
+    #b4fffb 16.67%,
+    #9cfcf8 25%,
+    #80f3f6 33.33%,
+    #5de8f4 41.67%,
+    #1eddf3 50%,
+    #00d1f3 58.33%,
+    #00c6f3 66.67%,
+    #00bbf5 75%,
+    #00b1f7 83.33%,
+    #00a8f8 91.67%,
+    #009ffa 100%
+  );
+  border-radius: 30px;
+  padding: 50px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+li {
+  color: blueviolet;
+}
+
+span {
+  color: blueviolet;
+}
